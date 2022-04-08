@@ -1,5 +1,7 @@
-$(window).on("load", function () {
-    $('.loader-wrapper').fadeOut("slow")
+const loader = document.querySelector('.loader-wrapper')
+window.addEventListener('load', () => {
+    loader.classList.add('active')
+    document.body.classList.add('active')
 })
 
 const header = document.querySelector('.header')

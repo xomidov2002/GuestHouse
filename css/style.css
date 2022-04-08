@@ -7,6 +7,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    overflow: hidden;
+}
+body.active{
+    overflow: auto;
 }
 
 a {
@@ -40,6 +44,10 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.loader-wrapper.active{
+    display: none;
+    overflow: hidden;
 }
 
 .lds-spinner {
