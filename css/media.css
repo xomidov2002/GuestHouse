@@ -1,0 +1,175 @@
+@media(max-width: 1240px){
+    .container{
+        max-width: 1000px;
+    }
+    .cabin .title{
+        font-size: 80px;
+    }
+    .escape .informations{
+        justify-content: center;
+    }
+    .arangement .blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media(max-width:1024px){
+    .header{
+        padding: 10px 0;
+    }
+    .container{
+        max-width: 768px;
+    }
+    .cabin .title{
+        font-size: 70px;
+    }    
+    .cabin .img{
+        height: 500px;
+    }
+    .footer .firstline .newsletter p{
+        max-width: 350px;
+    }
+    footer .firstline .newsletter .form input{
+        width: 300px;
+    }
+}
+@media(max-width: 768px){
+    .container{
+        max-width: 425px;
+        padding: 0;
+    }
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        background: #52503B;
+    }
+    .header .logo{
+        width: 80px;    
+    }
+    .header .header-btn .btn{
+        padding: 6px 13px;
+    }
+    .header .burger-menu{
+        display: flex;
+    }
+    .header .header-menu{
+        position: absolute;
+        z-index: -99;
+        left: -50%;
+        top: 52px;
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #E08631;
+        transition: 0.4s;
+    }  
+    .header.active .header-menu{
+        left: 0;
+    }
+    .header .header-menu ul{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }  
+    .main{
+        padding: 138px 0 78px;
+    }
+    .main .main-logo {
+        width: 200px;
+    }
+    .main .text{
+        margin: 34px 0 56px;
+    }
+    .main .text .title{
+        font-size: 38px;
+    }
+    .cabin .title{
+        font-size: 55px;
+    }
+    .cabin .img{
+        height: 400px;
+    }
+    .together .image-together{
+        height: 400px;
+    }
+    .footer .firstline{
+        gap: 30px;
+    }
+    .footer .ending{
+        margin-top: 30px;
+    }
+    .guests .cards .card{
+        padding: 23px 21px;
+        min-width: 434px;   
+    }
+    .guests .cards .card .title{
+        font-size: 17px;
+    }
+    .guests .cards .card .subtitle{
+        font-size: 13px;
+    }
+    
+}
+@media(max-width: 425px){
+    .container{
+        max-width: 320px;
+    }
+    .header{
+        max-width: 425px;
+        padding: 10 10px;
+    }
+    .header .logo{
+        display: none;
+    }
+    .main .main-logo{
+        width: 150px;
+    }
+    .main .text .title{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .main{
+        padding: 100px 0 78px;
+    } 
+    .book-now .info{
+        flex-wrap: wrap;
+    }
+    .line{
+        margin: 50px auto 20px;
+    }
+    .cabin .title{
+        line-height: 45px;
+        font-size: 35px;
+    }
+    .cabin .img{
+        margin-top: 100px;
+    }
+    .cabin .img{
+        height: 350px;
+    }
+    .escape .subtitle{
+        width: 310px;
+        font-size: 14px;
+    }
+    .together .image-together{
+        height: 350px;
+    }
+    .contact .title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .contact .btns .contact-btn, .contact .btns .book-btn{
+        padding: 6px 14px;
+    }
+    footer .firstline .newsletter .form input{
+        width: 260px;
+        
+    }
+    .footer .ending .img {
+    width: 150px;
+}
+}
